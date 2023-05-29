@@ -10,7 +10,7 @@ interface Y
 }
 class Z implements X,Y
 {
-	public void f()
+	public void f() // Method Overriding
 	{
 		System.out.println("Hello");
 	}
